@@ -17,3 +17,4 @@ python main.py
 
 ## Reference source
 * [SQLAlchemyの基本的な使い方](https://qiita.com/arkuchy/items/75799665acd09520bed2)
+* [SQLAlchemyの使い方](https://www.wakuwakubank.com/posts/277-python-sqlalchemy/)
