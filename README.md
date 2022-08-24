@@ -1,6 +1,5 @@
 # python-practice-06 - try to SQLAlchemy with python + mysql on docker
 ## Setup & Run
-db/dataフォルダ作成
 dockerコンテナを起動
 ```
 docker-compose up -d
