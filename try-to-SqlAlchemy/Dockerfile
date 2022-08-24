@@ -6,3 +6,5 @@ WORKDIR /var/try-to-SqlAlchemy
 ADD . /var/try-to-SqlAlchemy
 
 RUN python -m pip install --upgrade pip
+RUN pip install sqlalchemy
+RUN pip install pymysql
