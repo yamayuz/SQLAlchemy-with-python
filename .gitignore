@@ -1,2 +1,2 @@
-db/data/*
+/docker/db/data/*
 !.gitkeep
