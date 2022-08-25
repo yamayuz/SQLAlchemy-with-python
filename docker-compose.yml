@@ -5,6 +5,12 @@ services:
     build:
       context: ./try-to-sqlalchemy
     container_name: try-to-sqlalchemy
+    environment:
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_DATABASE: db
+      DB_USERNAME: root
+      DB_PASSWORD: root
     command: bash
     tty: true
     volumes:
@@ -16,8 +22,6 @@ services:
     image: mysql:5.7.16
     container_name: mysql
     environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: db
       TZ: "Asia/Tokyo"
     ports:
       - "3306:3306"
