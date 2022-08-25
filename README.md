@@ -10,12 +10,12 @@ run python main file
 python main.py
 ```
 
-## how to use SQLAlchemy (minimal)
+## How to use SQLAlchemy (minimal)
 1. make engine
 2. make session
 3. operate table by using session
 
-## repositry pattern
+## Repositry pattern
 ![repositry_pattern](https://user-images.githubusercontent.com/99404423/186602292-6259662b-456d-4ee1-b9ea-dc56d9ca3090.png)
 
 ## Reference source
