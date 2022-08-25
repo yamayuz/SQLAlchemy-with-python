@@ -17,6 +17,8 @@ python main.py
 
 ## Repositry pattern
 ![repositry_pattern](https://user-images.githubusercontent.com/99404423/186602292-6259662b-456d-4ee1-b9ea-dc56d9ca3090.png)
+* Repositry: Describe the process that needs to connect to the DB. Business logic should not be described.
+* each process class: This class that describes the business logic of each process; DB connection processing is separated into Repositry.
 
 ## Reference source
 * [SQLAlchemyの基本的な使い方](https://qiita.com/arkuchy/items/75799665acd09520bed2)
