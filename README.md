@@ -1,4 +1,4 @@
-# python-practice-06 - try to SQLAlchemy with python + mysql on docker
+# SQLAlchemy with python
 ## Setup & Run
 start and enter docker container
 ```
