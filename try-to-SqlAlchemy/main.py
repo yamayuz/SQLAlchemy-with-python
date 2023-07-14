@@ -1,7 +1,7 @@
-from connection.repositories.OperateUserRepository import OperateUserRepository
+from connection.repositories.UserRepository import UserRepository
 
 
 if __name__ == "__main__":
-    users = OperateUserRepository()
-    user_select_result = users.select_Users()
-    print(user_select_result[0].first_name)
+    user_repo = UserRepository()
+    users = user_repo.get_all_users()
+    print(users[0].first_name)
