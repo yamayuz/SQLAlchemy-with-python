@@ -1,5 +1,9 @@
 import os
 from typing import Optional, TypedDict
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 
 class MysqlConfType(TypedDict):
