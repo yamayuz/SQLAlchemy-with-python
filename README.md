@@ -10,6 +10,16 @@ run python main file
 python main.py
 ```
 
+## venv起動
+```
+source venv/bin/activate
+```
+
+## venv終了
+```
+deactivate
+```
+
 ## How to use SQLAlchemy (minimal)
 1. make engine
 2. make session
